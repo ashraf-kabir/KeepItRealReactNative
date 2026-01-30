@@ -16,7 +16,9 @@ Click "OK"
 3. Update the Path variable:
 Find and select the "Path" variable under "System variables", then click "Edit"
 Click "New" and add the following entry:
+```
 %JAVA_HOME%\bin
+```
 Click "OK" to close all dialog boxes
 4. Restart your computer to apply the changes.
 
@@ -34,10 +36,12 @@ Click "OK"
 3. Update the Path variable:
 Find and select the "Path" variable under "System variables", then click "Edit"
 Click "New" and add the following entries:
+```
 %ANDROID_HOME%\platform-tools
 %ANDROID_HOME%\emulator
 %ANDROID_HOME%\tools
 %ANDROID_HOME%\tools\bin
+```
 Click "OK" to close all dialog boxes
 4. Restart your computer to apply the changes.
 
