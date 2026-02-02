@@ -75,5 +75,18 @@ The generated APK can be found at:
 project_root_dir/android/app/build/outputs/apk/debug/app-debug.apk
 ```
 
+### Web version extra packages installation
+```
+sh
+npm install react-native-web react-dom --legacy-peer-deps
+npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin babel-loader @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript --legacy-peer-deps
+npm install ajv ajv-keywords --legacy-peer-deps
+npm install react@19.2.4 --legacy-peer-deps
+```
+
+### Serve the project on web
+```sh
+npm run web
+```
 
 Note: You may have to adjust android SDK & it's build tools version. You can use Android Studio's SDK manager to install required SDK versions. Besides, please do make sure you have set up ANDROID_HOME, JAVA_HOME environment variables correctly. Please use Java JDK 17 LTS for best compatibility. Also, make sure to enable USB debugging on your android device and connect it via USB cable. Finally, use the command "npx react-native doctor" to check for any compatibility issues.
